@@ -9,7 +9,7 @@ const Navbar = () => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false)
 
-  const navItems = [{ name: 'Home', pageLink: '/' }, { name: 'About', pageLink: '/about' }, { name: 'Quest', pageLink: '/quest' }, { name: 'Account', pageLink: '/login' }]
+  const navItems = [{ name: 'Home', pageLink: '/' }, { name: 'About', pageLink: '/about' }, { name: 'Quest', pageLink: '/quest' }, { name: 'Account', pageLink: '/account/login' }]
 
   return (
     <nav className="bg-gray-900 top-0 fixed text-gray-300 border-b-[1px] border-green-900 w-full z-50 shadow-xl">
